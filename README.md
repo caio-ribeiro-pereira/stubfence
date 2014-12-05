@@ -35,10 +35,14 @@ On a collection:
 
 On a connection
 ```js
-    Meteor.connection.stubFence(function() {
+    Meteor.connection.stubFence('bar', function() {
         // If theres a client-side definition / stub for this method it
         // will be blocked and only run on the server
         Meteor.call('bar');
     });
 ```
+*stubFence takes a string or array of strings as methods to fence*
 
+Kind regards
+
+Morten (aka RaiX)
