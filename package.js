@@ -1,8 +1,8 @@
 Package.describe({
   name: 'raix:stubfence',
   summary: 'Fence/stop method stubs running, temporarily stop latency compensation',
-  version: '1.0.0-rc1',
-  git: ''
+  version: '1.0.0-rc2',
+  git: 'https://github.com/raix/stubfence.git'
 });
 
 Package.onUse(function(api) {
